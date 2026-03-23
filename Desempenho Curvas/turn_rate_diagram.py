@@ -2,7 +2,7 @@
 =============================================================
 NISUS Aerodesign — UFSC Joinville
 Turn Rate Diagram — Modelo 2432
-Setor de Desempenho · 2025
+Setor de Desempenho · 2026
 =============================================================
 Parâmetros aerodinâmicos: Melhores_individuos_TOP_10.csv
 Motor: Run_22x8_MN7005 (QPROP) — MAD MN7005 + hélice 22x8
@@ -25,7 +25,7 @@ CD0      = 0.030490
 k        = 0.07115
 ALT_m    = 120.0
 rho      = 1.225 * (1 - 2.26e-5 * ALT_m)**5.256
-n_max    = 3.0
+n_max    = 2.5
 
 #  CURVA T(V) REAL — QPROP Run_22x8_MN7005
 #  MAD MN7005 + hélice 22x8  @ rho=1.225 kg/m³
