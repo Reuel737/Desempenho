@@ -183,7 +183,7 @@ ax.set_xlim(VMIN, VP)
 ax.set_ylim(0, 160)
 ax.set_xlabel('Velocidade [m/s]', fontsize=11)
 ax.set_ylabel('Taxa de curva [°/s]', fontsize=11)
-ax.set_title('Diagrama de Manobrabilidade — Modelo 2432',
+ax.set_title('Diagrama de Manobrabilidade — Modelo 466',
              fontsize=13, fontweight='bold', pad=12)
 ax.grid(True, ls='--', alpha=0.25, color='#CFD8DC')
 ax.spines[['top','right']].set_visible(False)
