@@ -15,17 +15,31 @@ import matplotlib.patches as mpatches
 from scipy.interpolate import interp1d
 
 #  PARÂMETROS AERODINÂMICOS — modelo 2432
-MTOW_kg  = 9.449249
+MTOW_kg  = 9.792
 g        = 9.81
 W        = MTOW_kg * g
-S        = 0.743228 * 2  # m²  área total
-b        = 1.800 * 2  # m   envergadura total
-CLmax    = 2.10395
-CD0      = 0.030490
-k        = 0.07115
+S        = 0.7972875 * 2  # m²  área total
+b        = 1.900 * 2  # m   envergadura total
+CLmax    = 2.09929
+CD0      = 0.02856104001
+k        = 0.07051
 ALT_m    = 120.0
 rho      = 1.225 * (1 - 2.26e-5 * ALT_m)**5.256
 n_max    = 2.5
+
+
+#  PARÂMETROS AERODINÂMICOS — modelo 2432
+# MTOW_kg  = 9.449249
+# g        = 9.81
+# W        = MTOW_kg * g
+# S        = 0.743228 * 2  # m²  área total
+# b        = 1.800 * 2  # m   envergadura total
+# CLmax    = 2.10395
+# CD0      = 0.030490
+# k        = 0.07115
+# ALT_m    = 120.0
+# rho      = 1.225 * (1 - 2.26e-5 * ALT_m)**5.256
+# n_max    = 2.5
 
 #  CURVA T(V) REAL — QPROP Run_22x8_MN7005
 #  MAD MN7005 + hélice 22x8  @ rho=1.225 kg/m³
@@ -175,7 +189,7 @@ ax.grid(True, ls='--', alpha=0.25, color='#CFD8DC')
 ax.spines[['top','right']].set_visible(False)
 
 plt.tight_layout()
-plt.savefig('Desempenho Curvas/turn_rate_diagram_2432.png', dpi=200, bbox_inches='tight')
+plt.savefig('Desempenho Curvas/turn_rate_diagram_466.png', dpi=200, bbox_inches='tight')
 print("Salvo.")
 
 print(f"\n{'='*50}")
